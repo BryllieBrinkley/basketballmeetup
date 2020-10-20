@@ -1,0 +1,117 @@
+html {
+background: gold;
+background-image: url("Basketball-Court-Background.jpg");
+background-size: 100%;
+height: 100%;
+justify-content: 40%;
+
+}
+
+#buttons li {
+    border-color: rgb(240, 161, 71);
+    border-radius: 40px;
+    box-shadow: orange;
+    height: 100%;
+    text-align: center;
+    list-style: none;
+    line-height:30px;
+    font-size: 40px;
+    width: 100%;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+ 
+  #buttons li a {
+    color: rgb(240, 161, 71);;
+    width: 100%;
+    list-style: none;
+    font-style: Helvectica;
+    display: block;
+    padding:0.5em;
+    text-decoration:none;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #buttons li a:hover {
+  border: 1px solid;
+  opacity: 1;
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+  }
+
+header {
+color: gold;
+font-size: 20px;
+letter-spacing: 6px;
+text-align: center;
+margin-top: 30px;
+margin-left: 20px;
+border-style: solid;
+border-color: orange;
+border-width: 3px;
+}
+
+#zipcode {
+font-size: 36px;
+letter-spacing: 4px;
+width: 40%;
+height: 50px;
+margin-top: 20px; 
+margin-bottom: 30px;
+margin-left: 20px;
+}
+
+#Search {
+margin-left: 40px;
+font-size: 40px;
+text-align: center;
+height: 60px;
+}
+
+p {
+  color: gold;
+  font-size: 20px;
+    width: 90%;
+    text-align: center;
+    /* margin-bottom: 50px  */
+  margin-left: 40px;
+}
+
+nav {
+  height: 40;
+}
+
+
+nav ul {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    font-style: Helvetica;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+.appstore-logo {
+  display: block;
+  margin-left: 35%;
+  margin-right: auto;
+
+}
